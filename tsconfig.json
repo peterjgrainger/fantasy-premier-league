@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "module": "amd",
+        "sourceMap": true,
+        "outFile": "./build/dist/premier-league.js",
+        "skipLibCheck": true
+    },
+    "exclude": [
+        "src/**/*.test.ts",
+        "node_modules/@types/jest"
+    ],
+    "include": [
+        "src/**/*"
+    ]
+}

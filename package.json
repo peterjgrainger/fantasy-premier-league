@@ -1,0 +1,51 @@
+{
+  "name": "fantasy-premier-league",
+  "version": "0.0.1",
+  "description": "Easy access to fantasy premier league APIs",
+  "main": "build/dist/premier-league.js",
+  "scripts": {
+    "test": "jest",
+    "publish": "tsc: build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheSmokingGnu/fantasy-premier-league.git"
+  },
+  "keywords": [
+    "fantasy",
+    "premier",
+    "league",
+    "API",
+    "matches",
+    "goals",
+    "players"
+  ],
+  "author": "peter@grainger.xyz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TheSmokingGnu/fantasy-premier-league/issues"
+  },
+  "homepage": "https://github.com/TheSmokingGnu/fantasy-premier-league#readme",
+  "devDependencies": {
+    "@types/jest": "^20.0.8",
+    "jest": "^21.0.2",
+    "ts-jest": "^21.0.0",
+    "tslint": "^5.7.0",
+    "typescript": "^2.5.2"
+  },
+  "jest": {
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js"
+    ],
+    "transform": {
+      "\\.(ts|tsx)$": "<rootDir>/node_modules/ts-jest/preprocessor.js"
+    },
+    "testRegex": ".(/src/.*\\.(test|spec))\\.(ts|tsx|js)$"
+  },
+  "dependencies": {
+    "@types/request": "^2.0.3",
+    "request": "^2.81.0"
+  }
+}
