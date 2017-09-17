@@ -4,7 +4,8 @@
   "description": "Easy access to fantasy premier league APIs",
   "main": "build/dist/premier-league.js",
   "scripts": {
-    "test": "jest",
+    "test": "jest --coverage
+    ",
     "publish": "tsc: build"
   },
   "repository": {
@@ -34,6 +35,7 @@
     "typescript": "^2.5.2"
   },
   "jest": {
+    "mapCoverage":true,
     "moduleFileExtensions": [
       "ts",
       "tsx",
