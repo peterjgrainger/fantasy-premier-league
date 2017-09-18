@@ -1,6 +1,6 @@
 {
   "name": "fantasy-premier-league",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Easy access to fantasy premier league APIs",
   "main": "js/index.js",
   "typings": "js/index",
@@ -34,7 +34,7 @@
     "typescript": "^2.5.2"
   },
   "jest": {
-    "mapCoverage":true,
+    "mapCoverage": true,
     "moduleFileExtensions": [
       "ts",
       "tsx",
