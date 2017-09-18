@@ -8,7 +8,7 @@ import Team from "./team";
  * @class Teams
  * @extends {UrlCall}
  */
-export default class Teams extends UrlCall {
+export class Teams extends UrlCall {
 
     /**
      * Returns a list of all the teams possible with stats

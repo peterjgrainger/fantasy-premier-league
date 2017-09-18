@@ -1,4 +1,4 @@
-import Teams from "./teams";
+import {Teams} from "./teams";
 jest.mock("../connection/url-call");
 import UrlCall from "../connection/url-call";
 

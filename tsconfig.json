@@ -1,10 +1,15 @@
 {
     "compilerOptions": {
         "target": "es5",
-        "module": "amd",
-        "sourceMap": true,
-        "outFile": "./build/dist/premier-league.js",
-        "skipLibCheck": true
+        "module": "commonjs",
+        "noImplicitAny": false,
+        "removeComments": true,
+        "noLib": false,
+        "preserveConstEnums": true,
+        "declaration": true,
+        "suppressImplicitAnyIndexErrors": true,
+        "skipLibCheck": true,
+        "outDir": "js"
     },
     "exclude": [
         "src/**/*.test.ts",

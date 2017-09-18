@@ -2,10 +2,10 @@
   "name": "fantasy-premier-league",
   "version": "0.0.1",
   "description": "Easy access to fantasy premier league APIs",
-  "main": "build/dist/premier-league.js",
+  "main": "js/index.js",
+  "typings": "js/index",
   "scripts": {
-    "test": "jest --coverage",
-    "publish": "tsc: build"
+    "test": "jest --coverage"
   },
   "repository": {
     "type": "git",
