@@ -1,5 +1,4 @@
 import UrlCall from "../connection/url-call";
-import Team from "./team";
 
 /**
  * Get the teams section from the API and attach typings
