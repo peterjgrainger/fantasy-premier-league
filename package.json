@@ -5,7 +5,8 @@
   "main": "js/index.js",
   "typings": "js/index",
   "scripts": {
-    "test": "jest --coverage"
+    "test": "jest --coverage",
+    "build": "tsc"
   },
   "repository": {
     "type": "git",
