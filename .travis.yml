@@ -1,6 +1,7 @@
 language: node_js
 
 install: 
+  - npm update
   - npm install
 
 script:
