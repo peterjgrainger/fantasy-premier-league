@@ -3,8 +3,5 @@ language: node_js
 install: 
   - npm install
 
-build:
-  - npm run build
-
-test:
+script:
   - npm test
