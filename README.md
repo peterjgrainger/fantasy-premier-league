@@ -1,4 +1,5 @@
-# Fantasy premier league
+# Fantasy premier league ![Travis build status](https://travis-ci.org/TheSmokingGnu/fantasy-premier-league.svg?branch=master "Travis build status")
+
 
 Call the English fantasy premier league and get a list of players or a list
 of teams, built with typescript.
